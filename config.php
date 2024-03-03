@@ -2,10 +2,11 @@
 
 
 // this configuration path for website
-define('PATH', 'https://argajaladri.or.id'); // isi path dari website anda
+define('PATH', 'http://localhost/sman1kulbar/'); // isi path dari website anda
 define('SITE_URL', PATH);
 // define('POSITION_URL', PATH . '?page=' . $page);
 
+define('STYLE', PATH . 'style/');
 define('RESOUCES', 'https://rahman115.github.io/argajaladri.or.id/resource/');
 
 // this configuration for database website
