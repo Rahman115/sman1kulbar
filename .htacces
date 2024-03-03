@@ -1,0 +1,22 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+    RewriteBase /
+
+    RewriteCond %{QUERY_STRING} ^(.*)&?fbclid=[^&]+&?(.*)$ [NC]
+    RewriteRule ^/?(.*)$ /$1?%1%2 [R=301,L]
+
+  RewriteRule ^index\.php$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.php [L]
+
+# Serve the Google file verification or other files with their correct headers
+<FilesMatch "^(google[a-f0-9]{16}\.html|.*\.txt|.*\.xml|.*\.css|.*\.js)$">
+    Header set Content-Type "text/plain"
+</FilesMatch>
+
+</IfModule>
+# END WordPres
