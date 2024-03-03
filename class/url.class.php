@@ -4,6 +4,7 @@
 class url
 {
     private $urli;
+    public $link = array("", "", "", "", "");
 
     public function __construct()
     {
@@ -14,33 +15,41 @@ class url
     {
         $ur = explode("/", $this->urli);
 
+        // var_dump($this->urli);
+
         // 1 untuk menggunakan server web dan 2 untuk lokalhost
-        if ($ur[1] == null) {
-            $ur[1] = 'home';
+        if ($ur[2] == null) {
+            $ur[2] = 'dashboard';
         }
 
-        return $ur[1];
+        return $ur[2];
     }
 
+    public function verifikasiURL()
+    {
+        $this->link = explode("/", $this->urli);
+
+    }
     public function linked()
     {
-        $link = explode("/", $this->urli);
+        $this->link = explode("/", $this->urli);
         // 2 untuk server web dan 3 untuk lokalhost
-        if ($link[2] == null) {
-            $link[2] = '';
+
+        if ($this->link[3] == null) {
+            $this->link[3] = '';
         }
-        // var_dump($link);
-        return $link[2];
+        var_dump($this->link);
+        return $this->link[3];
     }
 
     public function args()
     {
         $link = explode("/", $this->urli);
         // 3 untuk server web dan 4 untuk lokalhost
-        if ($link[3] == null) {
-            $link[3] = '';
+        if ($this->link[4] == null) {
+            $this->link[4] = '';
         }
         // var_dump($link);
-        return $link[3];
+        return $this->link[4];
     }
 } // end class url
