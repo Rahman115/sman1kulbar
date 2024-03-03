@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class controller
 {
@@ -27,7 +27,7 @@ class controller
 
     protected function waktu($value)
     {
-        $dt = new tanggal($value);
-        return $dt;
+        // $dt = new tanggal($value);
+        // return $dt;
     }
 }

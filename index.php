@@ -6,7 +6,7 @@ define('DS', DIRECTORY_SEPARATOR);
 
 include('./config.php');
 
-// include('./class/database.class.php');
+include('./class/database.class.php');
 include('./class/controller.class.php');
 include('./class/model.class.php');
 include('./class/view.class.php');
@@ -24,7 +24,7 @@ $controller = './controllers' . DS . $url->pages() . '.controller.php';
 if (file_exists($controller)) {
     include($controller);
 
-    var_dump($url->linked());
+    // var_dump($url->linked());
     if ($url->linked() == '' || $url->linked() == null) {
         $action = 'index';
     } else {
@@ -43,6 +43,8 @@ if (file_exists($controller)) {
             // echo "<script>window.location = 'https://argajaladri.or.id'</script>";
         }
         // run
+
+        // var_dump($obj);
         call_user_func_array(array($obj, $action), $args);
     } else {
 

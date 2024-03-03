@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // CLASS MODEL
 class model
