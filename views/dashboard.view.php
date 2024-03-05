@@ -31,7 +31,7 @@
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
     <div class="pages">
-        <h3>Sticky Navigation Example</h3>
+        <h3>im update Sticky Navigation Example</h3>
         <p>The navbar will stick to the top when you reach its scroll position.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
             concludaturque
