@@ -39,8 +39,11 @@
     <div id="slider"></div>
     <div class="pages">
         <div class="col-8">
+            <div class="cards-md">
+                <h3>Pesan Baru</h3>
+            </div>
             <div class="cards">
-                <h3>im update Sticky Navigation Example</h3>
+                <h3><a href="#">Pendaftaran Siswa Baru</a></h3>
                 <div class="desk">
                     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
                         concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
@@ -50,7 +53,7 @@
                 <div class="dates">05/06/2023 10:35 - Oleh Administrator - Dilihat 5135 kali</div>
             </div>
             <div class="cards">
-                <h3>im update Sticky Navigation Example</h3>
+                <h3><a href="#">Hasil Pengumuman</a></h3>
                 <div class="desk">
                     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
                         concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
@@ -61,17 +64,46 @@
             </div>
         </div>
         <div class="col-4">
-            <h3>im update Sticky Navigation Example</h3>
-            <p>The navbar will stick to the top when you reach its scroll position.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                concludaturque
-                et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-                laboramus
-                repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <div class="cards-md">
+                <h3>Sambutan Kepala Sekolah</h3>
+                <img src="https://rahman115.github.io/sman1kulbar.github.io/img/kepsek.png" alt="Kepala Sekolah">
+                <p><strong>Alhamdulillah, segala puji hanya milik Allah SWT semata</strong>, atas kehendak-Nya kami bisa
+                    hadir ditengah derasnya perkembangan teknologi informasi setelah kami
+                    lakukan update, baik dari sisi pengelolaan maupun isinya.</p>
+                <div class="button"><a href="#">Selengkapnya</a></div>
+                <br>
+                <br>
 
-
-
+            </div>
+            <div class="cards-md">
+                <h3>Info dan Agenda</h3>
+                <p>The navbar will stick to the top when you reach its scroll position.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+                    concludaturque
+                    et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+                    laboramus
+                    repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            </div>
+            <div class="cards-md">
+                <h3>Tautan</h3>
+                <p>The navbar will stick to the top when you reach its scroll position.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+                    concludaturque
+                    et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+                    laboramus
+                    repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            </div>
+            <div class="cards-md">
+                <h3>Lainnya</h3>
+                <p>The navbar will stick to the top when you reach its scroll position.</p>
+                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+                    concludaturque
+                    et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+                    laboramus
+                    repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            </div>
         </div>
+
 
     </div>
 </div>
