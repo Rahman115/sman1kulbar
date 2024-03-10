@@ -14,9 +14,9 @@ $view = new view($viewName);
 <head>
     <!-- META -->
     <meta charset="utf-8" />
-    <meta name="description" content="<?php echo $meta['desk']; ?>">
+    <meta name="description" content="SMA Negeri 1 Kulisusu Barat">
 
-    <meta name="keywords" content="<?php echo $meta['keywords']; ?>">
+    <meta name="keywords" content="SMA Negeri 1 Kulisusu Barat">
 
     <meta name="author" content="AbuduChoy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,12 +32,12 @@ $view = new view($viewName);
 <body>
     <header>
         <h2>SMA NEGERI 1 KULISUSU BARAT</h2>
-        <p>Scroll down to see the sticky effect.</p>
+        <p>TERWUJUDNYA PESERTA DIDIK YANG BERAHKLAK MULIA</p>
     </header>
     <div id="container">
         <nav>
-        <div class="nav-content">
-                <button class="nav-content-btn"><a href="#" >BERANDA</a></button>
+            <div class="nav-content">
+                <button class="nav-content-btn"><a href="#">BERANDA</a></button>
 
             </div>
             <div class="dropdown">
@@ -60,14 +60,14 @@ $view = new view($viewName);
                 </div>
             </div>
             <div class="nav-content">
-                <button class="nav-content-btn"><a href="#" >EKSTRAKURIKULER</a></button>
+                <button class="nav-content-btn"><a href="#">EKSTRAKURIKULER</a></button>
 
             </div>
             <div class="nav-content">
-                <button class="nav-content-btn"><a href="#" >KONTAK</a></button>
+                <button class="nav-content-btn"><a href="#">KONTAK</a></button>
 
             </div>
-            
+
             <!-- <ul>
 
                     <li><a href="">BERITA</a></li>
@@ -79,15 +79,19 @@ $view = new view($viewName);
     </div>
 
     <!-- <div class="pages"> -->
-        <?php
-        $view->bind('data', $data);
-        $view->forceRender();
-        ?>
+    <?php
+    $view->bind('data', $data);
+    $view->forceRender();
+    ?>
     <!-- </div> -->
-
-    <!-- <footer>
-        <div class="foo-content">@ Abuduchoy 2024</div>
-    </footer> -->
+    <div class="content" style="background-color:#f00; color: #fff;">
+        <div class="col-4">SMA NEGERI 1 KULISUSU BARAT</div>
+        <div class="col-4">Postingan Terbaru</div>
+        <div class="col-4">Informasi Kontak</div>
+    </div>
+    <footer>
+        <div class="foo-content">Copyright @ Abuduchoy 2024</div>
+    </footer>
 
     <script>
         window.onscroll = function () { myFunction() };
