@@ -105,9 +105,9 @@
                 <img src="https://picsum.photos/id/1015/300/300">
             </div>
             <div class="agenda-title">Pengumuman Kelulusan Tahun 2024</div>
-            <div class="agenda-btn">
+            <!-- <div class="agenda-btn"> -->
                 <!-- <a href="#">Selengkapnya</a> -->
-            </div>
+            <!-- </div> -->
         </div>
         <div class="agenda">
             <div class="agenda-img">
