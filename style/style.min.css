@@ -684,6 +684,7 @@ a:focus {
     padding-left: 10px;
     /* text-transform: uppercase; */
     margin-bottom: 10px;
+
 }
 
 .cards-md .button {
@@ -706,3 +707,140 @@ a:focus {
 
 
 /* END CARDS-MD */
+
+.title {
+    font-size: var(--cp-spacer-5);
+    font-weight: bold;
+    text-align: center;
+    /* background-color: #3e8e41; */
+    padding: 40px 0 40px 0;
+}
+
+/* AGENDA */
+
+.super-agenda {
+    display: flex;
+    height: 100%;
+    width: 1190px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.agenda {
+    padding: 10px;
+    border: 1px solid #000;
+    display: table;
+    width: 220px;
+    margin: 10px;
+    /* background-color: aqua; */
+    text-align: center;
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+.agenda-img {
+    height: 200px;
+    background-color: #e7eb24;
+    margin-bottom: 5px;
+}
+
+.agenda-title {
+    font-size: var(--cp-spacer-3);
+    font-weight: 800;
+    padding: 7px 2px 7px 2px;
+    /* background-color: #3e8e41; */
+}
+
+.agenda-btn {
+    margin-top: 13px;
+    margin-bottom: 7px;
+    bottom: 0;
+}
+
+.agenda-btn a {
+    padding: 10px;
+    background-color: var(--cp-primary);
+    color: var(--white);
+    font-size: var(--cp-spacer-3);
+    border-radius: 10px;
+}
+
+.agenda-btn a:hover, a:focus {
+    
+    background-color: var(--red);
+    color: var(--white);
+    
+}
+
+/* TENAGA PENDIDIK */
+
+.super-tenaga {
+    display: flex;
+    height: 100%;
+    width: 1190px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tenaga {
+    padding: 10px;
+    border: 1px solid #000;
+    display: table;
+    width: 220px;
+    margin: 10px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.tenaga-img {
+    height: 200px;
+    background-color: #e7eb24;
+    margin-bottom: 5px;
+}
+
+.tenaga-title {
+    font-size: var(--cp-spacer-3);
+    font-weight: 800;
+    padding: 7px 2px 7px 2px;
+    /* background-color: #3e8e41; */
+}
+
+/* GALERI */
+
+.super-galeri {
+    display: flex;
+    height: 100%;
+    width: 1190px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.galeri {
+    padding: 10px;
+    border: 1px solid #000;
+    display: table;
+    width: 220px;
+    margin: 10px;
+    background-color: var(--white);
+    color: var(--primary);
+    text-align: center;
+}
+
+.galeri-img {
+    height: 200px;
+    background-color: #e7eb24;
+    margin-bottom: 5px;
+}
+
+.galeri-title {
+    font-size: var(--cp-spacer-3);
+    font-weight: 800;
+    padding: 7px 2px 7px 2px;
+    /* background-color: #3e8e41; */
+}

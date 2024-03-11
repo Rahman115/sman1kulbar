@@ -75,100 +75,102 @@
                 <br>
 
             </div>
-            <div class="cards-md">
+            <!-- <div class="cards-md">
                 <h3>Info dan Agenda</h3>
-                <p>The navbar will stick to the top when you reach its scroll position.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque
-                    et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-                    laboramus
-                    repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <ul>
+                    <li>Upacara Hari Senin</li>
+                    <li>PENERIMAAN PESERTA DIDIK BARU (PPDB) TAHUN PELAJARAN 2023/2024</li>
+                </ul>
             </div>
             <div class="cards-md">
                 <h3>Tautan</h3>
-                <p>The navbar will stick to the top when you reach its scroll position.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque
-                    et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-                    laboramus
-                    repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+                <ul>
+                    <li><a href="#">DAPODIK</a></li>
+                </ul>
             </div>
             <div class="cards-md">
                 <h3>Lainnya</h3>
-                <p>The navbar will stick to the top when you reach its scroll position.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque
-                    et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
-                    laboramus
-                    repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            </div>
+
+            </div> -->
         </div>
 
 
     </div>
 </div>
-<div class="content" style="background-color:#000; color: #fff;">
-    <h3>SMA NEGERI 1 KULISUSU BARAT</h3>
-    <p>Untuk meraih sukses di masa depan dan tepat untuk berkompetisi untuk mendapatkan juara di berbagai ajang
-        perlombaan nasional maupun internasional.</p>
+<div class="content" style="background-color:var(--danger); color:var(--white);">
+    <div class="cards-md title">AGENDA</div>
+    <div class="super-agenda">
+        <div class="agenda">
+            <div class="agenda-img">
+                <img src="https://picsum.photos/id/1015/300/300">
+            </div>
+            <div class="agenda-title">Pengumuman Kelulusan Tahun 2024</div>
+            <div class="agenda-btn">
+                <!-- <a href="#">Selengkapnya</a> -->
+            </div>
+        </div>
+        <div class="agenda">
+            <div class="agenda-img">
+                <img src="https://picsum.photos/id/1015/300/300">
+            </div>
+            <div class="agenda-title">Rapat Guru</div>
+            <div class="agenda-btn">
+                <!-- <a href="#">Selengkapnya</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="content">
+    <div class="cards-md title">TENAGA PENDIDIK</div>
+    <div class="super-tenaga">
+        <div class="tenaga">
+            <div class="tenaga-img">
+                <img src="https://picsum.photos/id/1015/300/300">
+            </div>
+            <div class="tenaga-title">User Name</div>
+            <div class="tenaga-subtitle">Wakasek</div>
+        </div>
+        <div class="tenaga">
+            <div class="tenaga-img">
+                <img src="https://picsum.photos/id/1015/300/300">
+            </div>
+            <div class="tenaga-title">User Name</div>
+            <div class="tenaga-subtitle">Bendahara</div>
+        </div>
+    </div>
+</div>
+<div class="content"   style="background-color:var(--dark); color:var(--white);">
+    <div class="cards-md title">GALERI</div>
+    <div class="super-galeri">
+        <div class="galeri">
+            <div class="galeri-img">
+                <img src="https://picsum.photos/id/115/300/300">
+            </div>
+            <div class="galeri-title">User Name</div>
+        </div>
+        <div class="galeri">
+            <div class="galeri-img">
+                <img src="https://picsum.photos/id/215/300/300">
+            </div>
+            <div class="galeri-title">User Name</div>
+        </div>
+    </div>
+    <div class="galeri-btn">
+        <a href="#" class="button">Selengkapnya</a>
+    </div>
+</div>
+<div class="content">
+    <div class="cards-md title">LOKASI SEKOLAH</div>
+    <div class="maps">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22494.502926534024!2d123.01486340897004!3d-4.682127305215673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da228f50a458f09%3A0x14c8d3cff03d39c!2sSMA%20N%201%20KULBAR!5e0!3m2!1sen!2sid!4v1710151186276!5m2!1sen!2sid"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </div>
 
-
 <script>
-    // var count = 1;
-    // let slideIndex = 1;
-    // showSlides(slideIndex);
-    // window.onload = function () {
-    //     setInterval(function () {
-
-    //         currentSlide(count);
-
-    //         if (count > 3) {
-    //             count = 1;
-    //         }
-    //         count++;
-    //     }, 6000);
-    // }
-
-
-    // function plusSlides(n) {
-    //     showSlides(slideIndex += n);
-
-    // }
-
-    // function currentSlide(n) {
-    //     showSlides(slideIndex = n);
-    //     count = n;
-
-    // }
-
-    // function showSlides(n) {
-
-    //     let i;
-    //     let slides = document.getElementsByClassName("mySlides");
-    //     let dots = document.getElementsByClassName("dot");
-
-
-    //     if (n > slides.length) {
-    //         slideIndex = 1
-    //     }
-    //     if (n < 1) {
-    //         slideIndex = slides.length
-    //     }
-    //     for (i = 0; i < slides.length; i++) {
-    //         slides[i].style.display = "none";
-    //         // console.log(slide[i].style.display);
-    //     }
-    //     for (i = 0; i < dots.length; i++) {
-    //         dots[i].className = dots[i].className.replace(" active", "");
-
-    //     }
-    //     slides[slideIndex - 1].style.display = "block";
-    //     dots[slideIndex - 1].className += " active";
-
-
-    // }
-
     const slider = document.querySelector('#slider');
     const images = ["https://rahman115.github.io/sman1kulbar.github.io/img/slide/9.jpg", "https://rahman115.github.io/sman1kulbar.github.io/img/slide/11.jpg", "https://rahman115.github.io/sman1kulbar.github.io/img/slide/15.jpg", "https://picsum.photos/id/1015/300/300"];
     let div;

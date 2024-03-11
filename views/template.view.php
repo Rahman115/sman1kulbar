@@ -14,16 +14,16 @@ $view = new view($viewName);
 <head>
     <!-- META -->
     <meta charset="utf-8" />
-    <meta name="description" content="SMA Negeri 1 Kulisusu Barat">
+    <meta name="description" content="SMA Negeri 1 Kulisusu Barat, Sekolah yang terdapat di Buton Utara">
 
-    <meta name="keywords" content="SMA Negeri 1 Kulisusu Barat">
+    <meta name="keywords" content="SMA Negeri 1 Kulisusu Barat, SMA BUTON URATA, SMAN 1 BUTON UTARA, KULISUSU BARAT,">
 
     <meta name="author" content="AbuduChoy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="-1" />
-    <title></title>
+    <title>SMAN 1 KULISUSU BARAT</title>
 
     <link rel="stylesheet" href="<?php echo STYLE; ?>style.min.css">
 
@@ -84,10 +84,13 @@ $view = new view($viewName);
     $view->forceRender();
     ?>
     <!-- </div> -->
-    <div class="content" style="background-color:#f00; color: #fff;">
+    <div class="content" style="background-color:var(--dark); color: #fff;">
         <div class="col-4">SMA NEGERI 1 KULISUSU BARAT</div>
         <div class="col-4">Postingan Terbaru</div>
-        <div class="col-4">Informasi Kontak</div>
+        <div class="col-4">Informasi Kontak
+
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FJakarta&bgcolor=%23ffffff&showTitle=0&showPrint=0&showTz=0&src=aWQuaXNsYW1pYyNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=aWQuaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%230B8043&color=%234285F4" style="border:solid 1px #777" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
     <footer>
         <div class="foo-content">Copyright @ Abuduchoy 2024</div>
